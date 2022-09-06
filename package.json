@@ -1,0 +1,32 @@
+{
+  "name": "automation-framework",
+  "version": "1.0.0",
+  "description": "CXone Studio UI Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags @TAG --format json:execution-results.json --format html:execution-results.html",
+    "e2e": "npx cucumber-js --world-parameters \"{\\\"cluster\\\":\\\"localhost\\\" , \\\"gbu\\\":\\\"StudioGBU\\\", \\\"browser\\\":\\\"chrome\\\"}\" --tags @POC",
+    "coverage": "nyc yarn test",
+    "lint": "eslint ./**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@playwright/test": "^1.15.0",
+    "@types/chai": "^4.2.22",
+    "@types/cucumber": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "axios": "^0.23.0",
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "eslint": "^8.1.0",
+    "nyc": "^15.1.0",
+    "playwright": "^1.19.0",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.3"
+  }
+}

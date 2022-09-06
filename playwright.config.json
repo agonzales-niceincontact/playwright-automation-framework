@@ -1,0 +1,7 @@
+﻿{
+  "username": "SET_USERNAME",
+  "password": "SET_PASSWORD",
+  "browser": "SET_BROWSER",
+  "domain": "SET_API_ENDPOINT_URL",
+  "url": "SET_APP_URL"
+}
