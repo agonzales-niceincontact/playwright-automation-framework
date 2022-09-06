@@ -1,56 +1,14 @@
 {
   "DO92-StudioGBU": {
-    "username": "administrator01.studiogbu.do0092.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
+    "username": "USERNAME",
+    "password": "PASSWORD",
     "url": "https://na1.dev.nice-incontact.com/login/#/",
     "domain": "https://api-do92.dev.nice-incontact.com"
-  },
-  "DO92-StudioGBUAgent01": {
-    "username": "agent01.studiogbu.do0092.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://na1.dev.nice-incontact.com/login/#/",
-    "domain": "https://api-do92.dev.nice-incontact.com"
-  },
-  "DO86-StudioGBU": {
-    "username": "manager01.studiogbu.do0086.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://home-do86.dev.nice-incontact.com/inContact/Login.aspx",
-    "domain": "https://api-do86.dev.nice-incontact.com"
-  },
-  "localhost-StudioGBU1": {
-    "username": "manager01.studiogbu.do0086.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "http://localhost:4200",
-    "domain": "http://localhost:5100"
   },
   "localhost-StudioGBU": {
-    "username": "administrator01.studiogbu.do0092.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
+    "username": "USERNAME",
+    "password": "PASSWORD",
     "url": "http://localhost:4200",
     "domain": "https://api-do92.dev.nice-incontact.com"
-  },
-  "TO32-StudioGBU": {
-    "username": "administrator01.StudioGBU.TO0032.2@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://na1.test.nice-incontact.com/login/#/",
-    "domain": "https://api-to32.test.nice-incontact.com"
-  },
-  "TO32-StudioGBUAgent01": {
-    "username": "Agent01.StudioGBU.TO0032.2@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://na1.test.nice-incontact.com/login/#/",
-    "domain": "https://api-to32.test.nice-incontact.com"
-  },
-  "SO32-StudioGBU": {
-    "username": "Administrator01.SmokeGBU.so0032.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://na1.staging.nice-incontact.com/login/#/",
-    "domain": "https://api-so32.staging.nice-incontact.com"
-  },
-  "SO32-StudioGBUAgent01": {
-    "username": "Agent01.SmokeGBU.so0032.1@niceincontact.com",
-    "password": "j!sFcWDpW92NgA9p8",
-    "url": "https://na1.staging.nice-incontact.com/login/#/",
-    "domain": "https://api-so32.staging.nice-incontact.com"
   }
 }

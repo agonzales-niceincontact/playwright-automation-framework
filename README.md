@@ -34,6 +34,15 @@ npx cucumber-js --world-parameters '{\"cluster\":\"CLUSTER\",\"gbu\":\"GBU\",\"b
 
 In case that don't specify the environment parameters(not use **--world-parameters**), the environment config data will be obtained from the **playwright.config.json** file
 
+In order to add retry for flaky tests:
+```
+npx cucumber-js --retry "NUMBER_RETRIES"
+```
+In order to execute parallel tests:
+```
+npx cucumber-js --parallel "NUMBER_PARALLEL_EXECUTIONS"
+```
+
 **NOTE:** "**--world-parameters**" and "**--tags**" are optional parameters.
 
 **--world-parameters:** Will be used to specify the environment.
