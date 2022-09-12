@@ -4,3 +4,7 @@ export * from "./cxone/application-menu.view";
 export * from "./cxone/cxone.page";
 export * from "./cxone/login.page";
 export * from "./cxone/manage-users.page";
+export * from "./cxs/cxs-header.page";
+export * from "./cxs/workspace/wsp-left-panel.page";
+export * from "./cxs/workspace.page";
+export * from "./cxs/home/welcome.page";

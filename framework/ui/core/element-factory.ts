@@ -8,7 +8,9 @@ import {
   Tooltip,  
   ApplicationsMenu,  
   Icon,  
-  Label,    
+  Label,
+  ActionPalette,
+  ScriptFoldersGrid,    
 } from "@elements";
 
 const elements: { [id: string]: ElementConstructor<BaseElement> } = {
@@ -19,6 +21,8 @@ const elements: { [id: string]: ElementConstructor<BaseElement> } = {
   [ElementType.Icon]: Icon,
   [ElementType.Label]: Label,  
   [ElementType.ApplicationsMenu]: ApplicationsMenu,
+  [ElementType.ActionPalette]: ActionPalette,
+  [ElementType.ScriptFoldersGrid]: ScriptFoldersGrid,
 };
 
 export const getElementTypeObject = (element: ElementStructure): unknown => {
