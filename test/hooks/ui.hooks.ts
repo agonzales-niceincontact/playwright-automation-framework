@@ -7,7 +7,7 @@ Before({ tags: "@UI" }, async function (this: Context) {
 });
 
 After({ tags: "@UI" }, async function (this: Context) {
-  // await this.driver.close();
+  await this.driver.close();
 });
 
 After({ tags: "@UI" }, async function (this: Context, scenarioContext) {

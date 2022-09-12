@@ -6,3 +6,5 @@ export * from "./tooltip.element";
 export * from "./icon.element";
 export * from "./label.element";
 export * from "./dropdown.element";
+export * from "./cxs/action-palette.element";
+export * from "./cxs/home-script-list-grid.element";
